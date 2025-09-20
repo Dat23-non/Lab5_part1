@@ -1,0 +1,31 @@
+<%- include('partials/header') %>
+
+<div class="container mt-5">
+  <div class="text-center">
+    <h1 class="mb-4">Welcome to ProductSupplier App</h1>
+    <p class="lead mb-5">Quản lý sản phẩm và nhà cung cấp dễ dàng</p>
+
+    <div class="row">
+      <div class="col-md-6 mb-3">
+        <div class="card shadow-sm h-100">
+          <div class="card-body d-flex flex-column justify-content-between">
+            <h3 class="card-title">Products</h3>
+            <p class="card-text">Thêm, chỉnh sửa, xóa và quản lý danh sách sản phẩm.</p>
+            <a href="/products" class="btn btn-primary mt-auto">Go to Products</a>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-6 mb-3">
+        <div class="card shadow-sm h-100">
+          <div class="card-body d-flex flex-column justify-content-between">
+            <h3 class="card-title">Suppliers</h3>
+            <p class="card-text">Quản lý thông tin nhà cung cấp: tên, địa chỉ, số điện thoại.</p>
+            <a href="/suppliers" class="btn btn-primary mt-auto">Go to Suppliers</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<%- include('partials/footer') %>
